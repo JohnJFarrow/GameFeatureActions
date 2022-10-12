@@ -24,8 +24,8 @@ void UGameFeatureAction_AddWorldSystem::AddAdditionalAssetBundleData(FAssetBundl
 		{
 			if (Entry.SystemType)
 			{
-				AssetBundleData.AddBundleAsset(UGameFeaturesSubsystemSettings::LoadStateClient, Entry.SystemType->GetPathName());
-				AssetBundleData.AddBundleAsset(UGameFeaturesSubsystemSettings::LoadStateServer, Entry.SystemType->GetPathName());
+				AssetBundleData.AddBundleAsset(UGameFeaturesSubsystemSettings::LoadStateClient, FTopLevelAssetPath(Entry.SystemType->GetPathName()));
+				AssetBundleData.AddBundleAsset(UGameFeaturesSubsystemSettings::LoadStateServer, FTopLevelAssetPath(Entry.SystemType->GetPathName()));
 			}
 		}
 	}

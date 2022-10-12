@@ -24,8 +24,8 @@ void UGameFeatureAction_AddSpawnedActors::AddAdditionalAssetBundleData(FAssetBun
 		{
 			for (const FSpawningActorEntry& ActorEntry : Entry.Actors)
 			{
-				AssetBundleData.AddBundleAsset(UGameFeaturesSubsystemSettings::LoadStateClient, ActorEntry.ActorType->GetPathName());
-				AssetBundleData.AddBundleAsset(UGameFeaturesSubsystemSettings::LoadStateServer, ActorEntry.ActorType->GetPathName());
+				AssetBundleData.AddBundleAsset(UGameFeaturesSubsystemSettings::LoadStateClient, FTopLevelAssetPath(ActorEntry.ActorType->GetPathName()));
+				AssetBundleData.AddBundleAsset(UGameFeaturesSubsystemSettings::LoadStateServer, FTopLevelAssetPath(ActorEntry.ActorType->GetPathName()));
 			}
 		}
 	}
