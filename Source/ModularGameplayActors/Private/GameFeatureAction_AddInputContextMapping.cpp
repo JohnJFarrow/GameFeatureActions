@@ -1,15 +1,13 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "GameFeatureAction_AddInputContextMapping.h"
-#include "AncientGame.h"
 #include "Engine/AssetManager.h"
 #include "GameFeaturesSubsystemSettings.h"
 #include "Components/GameFrameworkComponentManager.h"
-#include "Character/AncientGamePlayerController.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputMappingContext.h"
 
-#define LOCTEXT_NAMESPACE "AncientGameFeatures"
+#define LOCTEXT_NAMESPACE "ModularGameplayActors"
 
 //////////////////////////////////////////////////////////////////////
 // UGameFeatureAction_AddInputContextMapping
@@ -122,7 +120,7 @@ void UGameFeatureAction_AddInputContextMapping::AddInputMappingForPlayer(UPlayer
 		}
 		else
 		{
-			UE_LOG(LogAncientGame, Error, TEXT("Failed to find `UEnhancedInputLocalPlayerSubsystem` for local player. Input mappings will not be added. Make sure you're set to use the EnhancedInput system via config file."));
+			UE_LOG( LogTemp, Error, TEXT("Failed to find `UEnhancedInputLocalPlayerSubsystem` for local player. Input mappings will not be added. Make sure you're set to use the EnhancedInput system via config file."));
 		}
 	}
 }

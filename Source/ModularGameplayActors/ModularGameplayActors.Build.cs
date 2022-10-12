@@ -29,7 +29,10 @@ public class ModularGameplayActors : ModuleRules
 				"Core",
 				"CoreUObject",
 				"Engine",
+				"EnhancedInput",
 				"ModularGameplay",
+				"GameplayAbilities",
+				"GameFeatures",
 				"AIModule",
 				// ... add other public dependencies that you statically link with here ...
 			}
