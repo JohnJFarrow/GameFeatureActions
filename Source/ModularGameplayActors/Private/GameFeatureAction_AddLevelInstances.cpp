@@ -6,7 +6,7 @@
 #include "Engine/AssetManager.h"
 #include "Logging/LogMacros.h"
 
-DEFINE_LOG_CATEGORY_STATIC(LogAncientGameFeatures, Log, All);
+DEFINE_LOG_CATEGORY_STATIC(LogGameFeatures, Log, All);
 #define LOCTEXT_NAMESPACE "ModularGameplayActors"
 
 //////////////////////////////////////////////////////////////////////
@@ -107,7 +107,7 @@ ULevelStreamingDynamic* UGameFeatureAction_AddLevelInstances::LoadDynamicLevelFo
 
 	if (!bSuccess)
 	{
-		UE_LOG(LogAncientGameFeatures, Error, TEXT("[GameFeatureData %s]: Failed to load level instance `%s`."), *GetPathNameSafe(this), *Entry.Level.ToString());
+		UE_LOG(LogGameFeatures, Error, TEXT("[GameFeatureData %s]: Failed to load level instance `%s`."), *GetPathNameSafe(this), *Entry.Level.ToString());
 	}
 	else if (StreamingLevelRef)
 	{
