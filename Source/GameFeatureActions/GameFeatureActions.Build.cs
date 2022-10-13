@@ -3,9 +3,9 @@
 using UnrealBuildTool;
 using System.IO; // for Path
 
-public class ModularGameplayActors : ModuleRules
+public class GameFeatureActions : ModuleRules
 {
-	public ModularGameplayActors(ReadOnlyTargetRules Target) : base(Target)
+	public GameFeatureActions(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 

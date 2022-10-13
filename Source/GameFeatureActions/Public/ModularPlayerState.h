@@ -7,7 +7,7 @@
 
 /** Minimal class that supports extension by game feature plugins */
 UCLASS(Blueprintable)
-class MODULARGAMEPLAYACTORS_API AModularPlayerState : public APlayerState
+class GAMEFEATUREACTIONS_API AModularPlayerState : public APlayerState
 {
 	GENERATED_BODY()
 

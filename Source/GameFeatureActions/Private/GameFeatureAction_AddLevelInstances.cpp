@@ -7,7 +7,7 @@
 #include "Logging/LogMacros.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogGameFeatures, Log, All);
-#define LOCTEXT_NAMESPACE "ModularGameplayActors"
+#define LOCTEXT_NAMESPACE "GameFeatureActions"
 
 //////////////////////////////////////////////////////////////////////
 // UGameFeatureAction_AddLevelInstances

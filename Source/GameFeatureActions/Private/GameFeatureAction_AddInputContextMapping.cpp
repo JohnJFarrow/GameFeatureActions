@@ -7,7 +7,7 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputMappingContext.h"
 
-#define LOCTEXT_NAMESPACE "ModularGameplayActors"
+#define LOCTEXT_NAMESPACE "GameFeatureActions"
 
 //////////////////////////////////////////////////////////////////////
 // UGameFeatureAction_AddInputContextMapping

@@ -4,7 +4,7 @@
 #include "Engine/AssetManager.h"
 #include "GameFeaturesSubsystemSettings.h"
 
-#define LOCTEXT_NAMESPACE "ModularGameplayActors"
+#define LOCTEXT_NAMESPACE "GameFeatureActions"
 
 //////////////////////////////////////////////////////////////////////
 // UGameFeatureAction_AddWorldSystem

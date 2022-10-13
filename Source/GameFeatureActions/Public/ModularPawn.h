@@ -7,7 +7,7 @@
 
 /** Minimal class that supports extension by game feature plugins */
 UCLASS(Blueprintable)
-class MODULARGAMEPLAYACTORS_API AModularPawn : public APawn
+class GAMEFEATUREACTIONS_API AModularPawn : public APawn
 {
 	GENERATED_BODY()
 

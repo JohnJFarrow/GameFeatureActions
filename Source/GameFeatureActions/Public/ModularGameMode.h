@@ -7,7 +7,7 @@
 
 /** Pair this with a ModularGameStateBase */
 UCLASS(Blueprintable)
-class MODULARGAMEPLAYACTORS_API AModularGameModeBase : public AGameModeBase
+class GAMEFEATUREACTIONS_API AModularGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 
@@ -17,7 +17,7 @@ public:
 
 /** Pair this with a ModularGameState */
 UCLASS(Blueprintable)
-class MODULARGAMEPLAYACTORS_API AModularGameMode : public AGameMode
+class GAMEFEATUREACTIONS_API AModularGameMode : public AGameMode
 {
 	GENERATED_BODY()
 

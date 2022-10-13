@@ -16,7 +16,7 @@
 	"Installed": false,
 	"Modules": [
 		{
-			"Name": "ModularGameplayActors",
+			"Name": "GameFeatureActions",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

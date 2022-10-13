@@ -7,7 +7,7 @@
 
 /** Minimal class that supports extension by game feature plugins */
 UCLASS(Blueprintable)
-class MODULARGAMEPLAYACTORS_API AModularCharacter : public ACharacter
+class GAMEFEATUREACTIONS_API AModularCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
